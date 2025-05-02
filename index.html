@@ -19,6 +19,13 @@
             padding: 20px;
         }
 
+        @media print {
+            body {
+                display: none !important;
+            }
+        }
+
+
         canvas {
             margin-bottom: 20px;
             border: 1px solid #ccc;
@@ -44,7 +51,7 @@
 
     <div id="anti-screenshot-overlay">
     </div>
-            <div id="pdf-container"></div>
+    <div id="pdf-container"></div>
 
 
 
